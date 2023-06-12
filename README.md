@@ -26,11 +26,14 @@ Steps used to create this package:
 
 // write this guide
 
->git add * -m "Initial commit of simple-server project"
->git commit
+>touch .gitignore
+// ignore node_modules in git project
+
+>git add -A
+>git commit -m "Initial commit of simple-server project"
 // add and commit files to git
 
 git remote add origin git@github.com:s0m313lse/simple-server.git
-git branch -M main
-git push -u origin main
+git branch -M master
+git push -u origin master
 // add github remote and push code to github
